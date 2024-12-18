@@ -1,5 +1,5 @@
 ollama
 Pillow
 streamlit
-google-ai-generativelanguage
+google-generativeai
 
