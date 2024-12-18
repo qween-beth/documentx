@@ -1,7 +1,5 @@
 import streamlit as st
 import os
-import logging
-from dotenv import load_dotenv
 import google.generativeai as genai
 from PIL import Image
 import io
@@ -13,8 +11,6 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-# Load environment variables
-load_dotenv()
 
 # Configure Gemini API
 GOOGLE_API_KEY = os.getenv('GEMINI_API_KEY')
